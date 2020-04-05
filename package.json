@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-topics",
+  "version": "1.0.0",
+  "description": "Routing messages to different queues based on a key.",
+  "main": "constants.js",
+  "scripts": {
+    "receiver": "node ./receive-log",
+    "emitter": "node ./emit-log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cibergarri/rabbitMQ-topics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cibergarri/rabbitMQ-topics/issues"
+  },
+  "homepage": "https://github.com/cibergarri/rabbitMQ-topics#readme",
+  "dependencies": {
+    "amqplib": "0.5.5"
+  }
+}
